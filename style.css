@@ -180,11 +180,16 @@
     display: none
    }
    .nets--icons {
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 150px;
+    display: none;
    }
 }
+
+@media only screen and (max-width: 1330px) {
+    .nets--icons {
+        display: none;
+    }
+}
+
     ::-webkit-scrollbar {
        width: 0px;
    }
