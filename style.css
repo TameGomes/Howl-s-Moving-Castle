@@ -184,6 +184,10 @@
     margin-top: 500px;
     margin-left: 150px;
    }
+   
+   ::-webkit-scrollbar {
+       width: 0px;
+   }
 }
 
 
